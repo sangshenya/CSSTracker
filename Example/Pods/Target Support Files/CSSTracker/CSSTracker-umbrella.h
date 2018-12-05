@@ -11,13 +11,14 @@
 #endif
 
 #import "CSSTrackerCrash.h"
-#import "CSSTracker+Private.h"
-#import "CSSTracker.h"
-#import "MCLocationManager.h"
+#import "UIApplication+CSSTracker.h"
 #import "UIViewController+CSSTracker.h"
+#import "CSSTrackerSender.h"
 #import "CSSTrackerSendParameter.h"
 #import "CSSTrackerEventModel.h"
 #import "CSSTrackerPersistence.h"
+#import "CSSTracker+Private.h"
+#import "CSSTracker.h"
 
 FOUNDATION_EXPORT double CSSTrackerVersionNumber;
 FOUNDATION_EXPORT const unsigned char CSSTrackerVersionString[];

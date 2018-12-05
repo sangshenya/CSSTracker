@@ -12,7 +12,32 @@ PODS:
   - CSSKit/UI (0.1.7)
   - CSSNetworkClient (0.1.5):
     - CSSKit
-  - CSSTracker (0.1.0):
+  - CSSTracker (0.1.1):
+    - CSSDeviceInfoTool
+    - CSSKit
+    - CSSNetworkClient
+    - CSSTracker/Crash (= 0.1.1)
+    - CSSTracker/Hook (= 0.1.1)
+    - CSSTracker/HttpSend (= 0.1.1)
+    - CSSTracker/Persistence (= 0.1.1)
+    - CSSTracker/Tracker (= 0.1.1)
+  - CSSTracker/Crash (0.1.1):
+    - CSSDeviceInfoTool
+    - CSSKit
+    - CSSNetworkClient
+  - CSSTracker/Hook (0.1.1):
+    - CSSDeviceInfoTool
+    - CSSKit
+    - CSSNetworkClient
+  - CSSTracker/HttpSend (0.1.1):
+    - CSSDeviceInfoTool
+    - CSSKit
+    - CSSNetworkClient
+  - CSSTracker/Persistence (0.1.1):
+    - CSSDeviceInfoTool
+    - CSSKit
+    - CSSNetworkClient
+  - CSSTracker/Tracker (0.1.1):
     - CSSDeviceInfoTool
     - CSSKit
     - CSSNetworkClient
@@ -34,7 +59,7 @@ SPEC CHECKSUMS:
   CSSDeviceInfoTool: 4f0d73fc41a4967499adf3bd0a5e671445cbabe9
   CSSKit: 4ddb67228ba28c5e6a2d1bb351dd145025208b3d
   CSSNetworkClient: 6a4ece4c650976d4f98b3c99de9bdf03c4de1264
-  CSSTracker: 38ab69f13f78a90318534f9daaf56c7dde595dcc
+  CSSTracker: 83d3a553ffec22342318bb0373c5c6af15f36ed3
 
 PODFILE CHECKSUM: 8884da2c3dfa549fdfa2cb428c03fb2723b34e5f
 
