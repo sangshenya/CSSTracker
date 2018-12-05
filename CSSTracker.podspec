@@ -32,6 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CSSTracker/Classes/**/*'
   
+  s.dependency 'CSSKit'
+  s.dependency 'CSSDeviceInfoTool'
+  s.dependency 'CSSNetworkClient'
+  
+  s.vendored_frameworks = 'CSSTracker/Classes/Framework/MCLocationManager.framework'
+  
   # s.resource_bundles = {
   #   'CSSTracker' => ['CSSTracker/Assets/*.png']
   # }

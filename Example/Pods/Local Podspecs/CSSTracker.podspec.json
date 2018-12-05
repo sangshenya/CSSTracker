@@ -18,5 +18,17 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CSSTracker/Classes/**/*"
+  "source_files": "CSSTracker/Classes/**/*",
+  "dependencies": {
+    "CSSKit": [
+
+    ],
+    "CSSDeviceInfoTool": [
+
+    ],
+    "CSSNetworkClient": [
+
+    ]
+  },
+  "vendored_frameworks": "CSSTracker/Classes/Framework/MCLocationManager.framework"
 }

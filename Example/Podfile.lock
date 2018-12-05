@@ -1,15 +1,40 @@
 PODS:
-  - CSSTracker (0.1.0)
+  - CSSDeviceInfoTool (0.1.3):
+    - CSSKit
+  - CSSKit (0.1.7):
+    - CSSKit/Foundation (= 0.1.7)
+    - CSSKit/Macros (= 0.1.7)
+    - CSSKit/Quartz (= 0.1.7)
+    - CSSKit/UI (= 0.1.7)
+  - CSSKit/Foundation (0.1.7)
+  - CSSKit/Macros (0.1.7)
+  - CSSKit/Quartz (0.1.7)
+  - CSSKit/UI (0.1.7)
+  - CSSNetworkClient (0.1.5):
+    - CSSKit
+  - CSSTracker (0.1.0):
+    - CSSDeviceInfoTool
+    - CSSKit
+    - CSSNetworkClient
 
 DEPENDENCIES:
   - CSSTracker (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CSSDeviceInfoTool
+    - CSSKit
+    - CSSNetworkClient
 
 EXTERNAL SOURCES:
   CSSTracker:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSSTracker: f06930f784f3ad50060db1a8f228081a4dc9e420
+  CSSDeviceInfoTool: 4f0d73fc41a4967499adf3bd0a5e671445cbabe9
+  CSSKit: 4ddb67228ba28c5e6a2d1bb351dd145025208b3d
+  CSSNetworkClient: 6a4ece4c650976d4f98b3c99de9bdf03c4de1264
+  CSSTracker: 38ab69f13f78a90318534f9daaf56c7dde595dcc
 
 PODFILE CHECKSUM: 8884da2c3dfa549fdfa2cb428c03fb2723b34e5f
 
