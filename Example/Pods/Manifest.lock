@@ -1,0 +1,16 @@
+PODS:
+  - CSSTracker (0.1.0)
+
+DEPENDENCIES:
+  - CSSTracker (from `../`)
+
+EXTERNAL SOURCES:
+  CSSTracker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSSTracker: f06930f784f3ad50060db1a8f228081a4dc9e420
+
+PODFILE CHECKSUM: 8884da2c3dfa549fdfa2cb428c03fb2723b34e5f
+
+COCOAPODS: 1.5.3

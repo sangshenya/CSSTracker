@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28017C449BF6A4DA48F1B81C005C1251 /* Pods-CSSTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CADD8F0BF3F5D86834C8008B1F972 /* Pods-CSSTracker_Example-dummy.m */; };
+		496019C52E865FB18434B37614272C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4A657728907DBA198CB3B5BAA3B7DCA6 /* Pods-CSSTracker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D425D049440A0EA1FEDBFCCA5729DA /* Pods-CSSTracker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E70E332858DDB26C374A94E3B73625B /* CSSTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A2BB4ED5768A4300B87F53FB6C3DE /* CSSTracker-dummy.m */; };
+		9B085B7D7836D129A166F65D9B2B2960 /* Pods-CSSTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4A7313104802F66D5386C5D1926893 /* Pods-CSSTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC392F028ED888AC20D3651DA6BD7A4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B2BD8C5CE7ACD7D211DB681DD0392E23 /* CSSTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 856DAD4037B1ED9FCCAF0FA7745C11BE /* CSSTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC56419D1D1E1BF77F3019587F5F9E21 /* Pods-CSSTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877D5DFA1C0D62FA7E8AC00D2027083 /* Pods-CSSTracker_Tests-dummy.m */; };
+		FC2EAB39BD6B8632C2104279B36553EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DEDBC48CAAB4C5BA8DACF33125B5961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1613721434FA78928BABB21CE4A08A;
+			remoteInfo = "Pods-CSSTracker_Example";
+		};
+		8B8CDD1EA3008F864367B9DBB8BBA0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D9D53A956858884FE2E157535D57A1;
+			remoteInfo = CSSTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026F8EA78CCBA7CFDDCC3A4A7530158B /* CSSTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CSSTracker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		243C307F06EE4D58C542715EAFF3AD8F /* Pods-CSSTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26C776C9A5943A3F81B4D8BD9E3B2BA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D08C2FB9B0D99DB279FF23699C699BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		34BBD306FB86D2257320126DFF3A7F6A /* Pods-CSSTracker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTracker_Tests-resources.sh"; sourceTree = "<group>"; };
+		360CADD8F0BF3F5D86834C8008B1F972 /* Pods-CSSTracker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTracker_Example-dummy.m"; sourceTree = "<group>"; };
+		39D425D049440A0EA1FEDBFCCA5729DA /* Pods-CSSTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3D4BD5208CC2D57C2EF2C4DE39EDF20A /* Pods-CSSTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		53B1937B6DF3B11556800936853C9BAD /* Pods-CSSTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E9D49A47DA9955B69A1E581214175AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC3E90B4CAD984CC623C4A1445F5AF6 /* CSSTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSSTracker.modulemap; sourceTree = "<group>"; };
+		7C6F46544023243C8EFE1123E2141E49 /* Pods-CSSTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		81E3653C5E31D782984EA5BFD30FF619 /* Pods-CSSTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSSTracker_Tests.modulemap"; sourceTree = "<group>"; };
+		820F51301342105C61B3CD86439C4AC7 /* Pods-CSSTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSSTracker_Example.modulemap"; sourceTree = "<group>"; };
+		84FF0960756A3DF3DEAC4067BDEE7221 /* Pods-CSSTracker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTracker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		856DAD4037B1ED9FCCAF0FA7745C11BE /* CSSTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSSTracker-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9877D5DFA1C0D62FA7E8AC00D2027083 /* Pods-CSSTracker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTracker_Tests-dummy.m"; sourceTree = "<group>"; };
+		A1273139D23B16A4EBCC580308D54BF1 /* CSSTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSSTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FFA6EBF9CDD7F321E2CA2AFBBB755C /* Pods_CSSTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE463E1570E0E25D42A68CBC9B9DF16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AB4A7313104802F66D5386C5D1926893 /* Pods-CSSTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTracker_Example-umbrella.h"; sourceTree = "<group>"; };
+		ABE237B05D8488E922E5C3255ED0A073 /* Pods-CSSTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B2C283AF590F5E720183916521490DE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD58623DCC34E5613DF7309450A4DEE1 /* Pods-CSSTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E35961CE3D37FD5ED90191B10B484DD7 /* Pods-CSSTracker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSTracker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E520C1C10C553DFEB8E3D1FAEEF4F0C2 /* Pods-CSSTracker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTracker_Example-resources.sh"; sourceTree = "<group>"; };
+		E940CE4C8F22577751FFE52BF750308B /* Pods-CSSTracker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSTracker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBA9BD927D851572B7B695D38EDEF851 /* Pods-CSSTracker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTracker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EF11880309153C8936231EE251E5AE61 /* Pods_CSSTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08A2BB4ED5768A4300B87F53FB6C3DE /* CSSTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSSTracker-dummy.m"; sourceTree = "<group>"; };
+		F1E8C6D505B9849ACED446CC10480C3D /* CSSTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSTracker.xcconfig; sourceTree = "<group>"; };
+		FD5131E3B45F7B7B4168E40161048758 /* CSSTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSSTracker-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E49FFEE5672F72763BC2C7D6761533F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC392F028ED888AC20D3651DA6BD7A4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FA4E3C5AD52178E8E5DF37908AACA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496019C52E865FB18434B37614272C71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647D1274BC018D1B3E2D54AAD4925BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2EAB39BD6B8632C2104279B36553EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443498F5DB8522B17ED845A041B70878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1273139D23B16A4EBCC580308D54BF1 /* CSSTracker.framework */,
+				A6FFA6EBF9CDD7F321E2CA2AFBBB755C /* Pods_CSSTracker_Example.framework */,
+				EF11880309153C8936231EE251E5AE61 /* Pods_CSSTracker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5735E01F206E6F7BF079EB1DEB71DBE4 /* Pods-CSSTracker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B2C283AF590F5E720183916521490DE6 /* Info.plist */,
+				820F51301342105C61B3CD86439C4AC7 /* Pods-CSSTracker_Example.modulemap */,
+				E35961CE3D37FD5ED90191B10B484DD7 /* Pods-CSSTracker_Example-acknowledgements.markdown */,
+				E940CE4C8F22577751FFE52BF750308B /* Pods-CSSTracker_Example-acknowledgements.plist */,
+				360CADD8F0BF3F5D86834C8008B1F972 /* Pods-CSSTracker_Example-dummy.m */,
+				84FF0960756A3DF3DEAC4067BDEE7221 /* Pods-CSSTracker_Example-frameworks.sh */,
+				E520C1C10C553DFEB8E3D1FAEEF4F0C2 /* Pods-CSSTracker_Example-resources.sh */,
+				AB4A7313104802F66D5386C5D1926893 /* Pods-CSSTracker_Example-umbrella.h */,
+				ABE237B05D8488E922E5C3255ED0A073 /* Pods-CSSTracker_Example.debug.xcconfig */,
+				7C6F46544023243C8EFE1123E2141E49 /* Pods-CSSTracker_Example.release.xcconfig */,
+			);
+			name = "Pods-CSSTracker_Example";
+			path = "Target Support Files/Pods-CSSTracker_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		786DBEB96CFE927A244BCAC0C7A2CBC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AC3E90B4CAD984CC623C4A1445F5AF6 /* CSSTracker.modulemap */,
+				F1E8C6D505B9849ACED446CC10480C3D /* CSSTracker.xcconfig */,
+				F08A2BB4ED5768A4300B87F53FB6C3DE /* CSSTracker-dummy.m */,
+				FD5131E3B45F7B7B4168E40161048758 /* CSSTracker-prefix.pch */,
+				856DAD4037B1ED9FCCAF0FA7745C11BE /* CSSTracker-umbrella.h */,
+				26C776C9A5943A3F81B4D8BD9E3B2BA5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CSSTracker";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F946719ABAC17ABFB6DAA20606E90442 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				443498F5DB8522B17ED845A041B70878 /* Products */,
+				FB6D592C944183D19A9543ECDA0FB331 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BB26747F629F5CCB2EE993570E5D3831 /* CSSTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FF9219D9F0BCA21B3704D1005FB2F871 /* Pod */,
+				786DBEB96CFE927A244BCAC0C7A2CBC9 /* Support Files */,
+			);
+			name = CSSTracker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3CF81D1E71C1842C70A314FC31A53BD /* Pods-CSSTracker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D49A47DA9955B69A1E581214175AD /* Info.plist */,
+				81E3653C5E31D782984EA5BFD30FF619 /* Pods-CSSTracker_Tests.modulemap */,
+				53B1937B6DF3B11556800936853C9BAD /* Pods-CSSTracker_Tests-acknowledgements.markdown */,
+				243C307F06EE4D58C542715EAFF3AD8F /* Pods-CSSTracker_Tests-acknowledgements.plist */,
+				9877D5DFA1C0D62FA7E8AC00D2027083 /* Pods-CSSTracker_Tests-dummy.m */,
+				EBA9BD927D851572B7B695D38EDEF851 /* Pods-CSSTracker_Tests-frameworks.sh */,
+				34BBD306FB86D2257320126DFF3A7F6A /* Pods-CSSTracker_Tests-resources.sh */,
+				39D425D049440A0EA1FEDBFCCA5729DA /* Pods-CSSTracker_Tests-umbrella.h */,
+				BD58623DCC34E5613DF7309450A4DEE1 /* Pods-CSSTracker_Tests.debug.xcconfig */,
+				3D4BD5208CC2D57C2EF2C4DE39EDF20A /* Pods-CSSTracker_Tests.release.xcconfig */,
+			);
+			name = "Pods-CSSTracker_Tests";
+			path = "Target Support Files/Pods-CSSTracker_Tests";
+			sourceTree = "<group>";
+		};
+		F946719ABAC17ABFB6DAA20606E90442 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB26747F629F5CCB2EE993570E5D3831 /* CSSTracker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FB6D592C944183D19A9543ECDA0FB331 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5735E01F206E6F7BF079EB1DEB71DBE4 /* Pods-CSSTracker_Example */,
+				C3CF81D1E71C1842C70A314FC31A53BD /* Pods-CSSTracker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF9219D9F0BCA21B3704D1005FB2F871 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				026F8EA78CCBA7CFDDCC3A4A7530158B /* CSSTracker.podspec */,
+				2D08C2FB9B0D99DB279FF23699C699BC /* LICENSE */,
+				AAE463E1570E0E25D42A68CBC9B9DF16 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE764EE61E79CDF38CD08D6C75BCEF55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BD8C5CE7ACD7D211DB681DD0392E23 /* CSSTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EC21BD7DCB14B9816C59D0A6A848AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B085B7D7836D129A166F65D9B2B2960 /* Pods-CSSTracker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8FF649B814B3796A3E40583C1E01DEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A657728907DBA198CB3B5BAA3B7DCA6 /* Pods-CSSTracker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		661A586E75066AA24AFF30C813FF25E1 /* Pods-CSSTracker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6504E3DF23DEE4D18FDBD62A4E67E8C5 /* Build configuration list for PBXNativeTarget "Pods-CSSTracker_Tests" */;
+			buildPhases = (
+				E8FF649B814B3796A3E40583C1E01DEA /* Headers */,
+				709A241610116B87E2662AD3EE19EAAB /* Sources */,
+				0E49FFEE5672F72763BC2C7D6761533F /* Frameworks */,
+				019A42B01D82CCAED924AA71C3A38B1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4FAB4D603D08CB53892F1EE9B2FE1B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CSSTracker_Tests";
+			productName = "Pods-CSSTracker_Tests";
+			productReference = EF11880309153C8936231EE251E5AE61 /* Pods_CSSTracker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6D9D53A956858884FE2E157535D57A1 /* CSSTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79000BFAF8FD60D29AD7DBC73DBDCFFA /* Build configuration list for PBXNativeTarget "CSSTracker" */;
+			buildPhases = (
+				BE764EE61E79CDF38CD08D6C75BCEF55 /* Headers */,
+				54F67F43DD7FCDA7E62F4BF5F68415AE /* Sources */,
+				647D1274BC018D1B3E2D54AAD4925BE2 /* Frameworks */,
+				C1558A192291E56AEBCCC89F347F1AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSSTracker;
+			productName = CSSTracker;
+			productReference = A1273139D23B16A4EBCC580308D54BF1 /* CSSTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF1613721434FA78928BABB21CE4A08A /* Pods-CSSTracker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5624464B09FB8ED2D1A2D4BD2519D1FF /* Build configuration list for PBXNativeTarget "Pods-CSSTracker_Example" */;
+			buildPhases = (
+				C5EC21BD7DCB14B9816C59D0A6A848AF /* Headers */,
+				96E3F1601236D4FBCB3A4BB66EEF9225 /* Sources */,
+				5FA4E3C5AD52178E8E5DF37908AACA22 /* Frameworks */,
+				56A80691EDADCA43D2F52D9B42116900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2631493EA0556BF79051A519A748FFB /* PBXTargetDependency */,
+			);
+			name = "Pods-CSSTracker_Example";
+			productName = "Pods-CSSTracker_Example";
+			productReference = A6FFA6EBF9CDD7F321E2CA2AFBBB755C /* Pods_CSSTracker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 443498F5DB8522B17ED845A041B70878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6D9D53A956858884FE2E157535D57A1 /* CSSTracker */,
+				FF1613721434FA78928BABB21CE4A08A /* Pods-CSSTracker_Example */,
+				661A586E75066AA24AFF30C813FF25E1 /* Pods-CSSTracker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019A42B01D82CCAED924AA71C3A38B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A80691EDADCA43D2F52D9B42116900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1558A192291E56AEBCCC89F347F1AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F67F43DD7FCDA7E62F4BF5F68415AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E70E332858DDB26C374A94E3B73625B /* CSSTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709A241610116B87E2662AD3EE19EAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56419D1D1E1BF77F3019587F5F9E21 /* Pods-CSSTracker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E3F1601236D4FBCB3A4BB66EEF9225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28017C449BF6A4DA48F1B81C005C1251 /* Pods-CSSTracker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4FAB4D603D08CB53892F1EE9B2FE1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CSSTracker_Example";
+			target = FF1613721434FA78928BABB21CE4A08A /* Pods-CSSTracker_Example */;
+			targetProxy = 0DEDBC48CAAB4C5BA8DACF33125B5961 /* PBXContainerItemProxy */;
+		};
+		E2631493EA0556BF79051A519A748FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSSTracker;
+			target = C6D9D53A956858884FE2E157535D57A1 /* CSSTracker */;
+			targetProxy = 8B8CDD1EA3008F864367B9DBB8BBA0C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33F1705B7DC0ED56A9D4713063115D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD58623DCC34E5613DF7309450A4DEE1 /* Pods-CSSTracker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTracker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTracker_Tests/Pods-CSSTracker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5245D27BB14BD38BFC594C56BFAD3BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE237B05D8488E922E5C3255ED0A073 /* Pods-CSSTracker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTracker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTracker_Example/Pods-CSSTracker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74FAB37D4D20CCEF6872BB26C86F110F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E8C6D505B9849ACED446CC10480C3D /* CSSTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSSTracker/CSSTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSSTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSSTracker/CSSTracker.modulemap";
+				PRODUCT_MODULE_NAME = CSSTracker;
+				PRODUCT_NAME = CSSTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AB16DACB8DA219F3D172CA8347554F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4BD5208CC2D57C2EF2C4DE39EDF20A /* Pods-CSSTracker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTracker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTracker_Tests/Pods-CSSTracker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		990F1CC589A124E85A8AFC6EC5F40156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6F46544023243C8EFE1123E2141E49 /* Pods-CSSTracker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTracker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTracker_Example/Pods-CSSTracker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF757CB0E816CC5976466D75BE78098B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E8C6D505B9849ACED446CC10480C3D /* CSSTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSSTracker/CSSTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSSTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSSTracker/CSSTracker.modulemap";
+				PRODUCT_MODULE_NAME = CSSTracker;
+				PRODUCT_NAME = CSSTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5624464B09FB8ED2D1A2D4BD2519D1FF /* Build configuration list for PBXNativeTarget "Pods-CSSTracker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5245D27BB14BD38BFC594C56BFAD3BDB /* Debug */,
+				990F1CC589A124E85A8AFC6EC5F40156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6504E3DF23DEE4D18FDBD62A4E67E8C5 /* Build configuration list for PBXNativeTarget "Pods-CSSTracker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F1705B7DC0ED56A9D4713063115D8F /* Debug */,
+				7AB16DACB8DA219F3D172CA8347554F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79000BFAF8FD60D29AD7DBC73DBDCFFA /* Build configuration list for PBXNativeTarget "CSSTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FAB37D4D20CCEF6872BB26C86F110F /* Debug */,
+				AF757CB0E816CC5976466D75BE78098B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
