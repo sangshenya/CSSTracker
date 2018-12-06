@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CSSTracker'
-  s.version          = '0.1.2'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of CSSTracker.'
 
 # This description is used to generate tags and improve search results.
