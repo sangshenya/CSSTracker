@@ -1,6 +1,6 @@
 {
   "name": "CSSTracker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of CSSTracker.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sangshenya/CSSTracker",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/sangshenya/CSSTracker.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "CSSTracker/Classes/*.{h,m}",
   "dependencies": {
     "CSSKit": [
 
@@ -29,27 +30,13 @@
 
     ]
   },
-  "vendored_frameworks": "CSSTracker/Classes/MCLocationManager.framework",
+  "ios": {
+    "vendored_frameworks": "CSSTracker/Classes/*.framework"
+  },
   "subspecs": [
-    {
-      "name": "Crash",
-      "source_files": "CSSTracker/Classes/Crash/**/*"
-    },
-    {
-      "name": "Hook",
-      "source_files": "CSSTracker/Classes/Hook/**/*"
-    },
-    {
-      "name": "HttpSend",
-      "source_files": "CSSTracker/Classes/HttpSend/**/*"
-    },
     {
       "name": "Persistence",
       "source_files": "CSSTracker/Classes/Persistence/**/*"
-    },
-    {
-      "name": "Tracker",
-      "source_files": "CSSTracker/Classes/Tracker/**/*"
     }
   ]
 }

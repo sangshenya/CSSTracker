@@ -51,8 +51,8 @@
     SEL selector = NSSelectorFromString(select);
     SEL dis_selector = NSSelectorFromString(dis_select);
     
-    [self swizzleInstanceMethod:selector                                 with:@selector(mct_trackerViewWillAppear:)];
-    [self swizzleInstanceMethod:dis_selector with:@selector(mct_trackerViewWillDisappear:)];
+    [self swizzleInstanceMethod:selector                                 with:@selector(css_trackerViewWillAppear:)];
+    [self swizzleInstanceMethod:dis_selector with:@selector(css_trackerViewWillDisappear:)];
 }
 
 #pragma mark - Hook Method

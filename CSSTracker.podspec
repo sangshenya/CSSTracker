@@ -29,35 +29,47 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+#  s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
 
-#  s.source_files = 'CSSTracker/Classes/**/*'
+#  s.libraries = 'z'
+
+s.source_files = 'CSSTracker/Classes/*.{h,m}'
 
   s.dependency 'CSSKit'
   s.dependency 'CSSDeviceInfoTool'
   s.dependency 'CSSNetworkClient'
   
-  s.vendored_frameworks = 'CSSTracker/Classes/MCLocationManager.framework'
+#  s.dependency 'MCLocationManager'
 
-  s.subspec 'Crash' do |ss|
-      ss.source_files = 'CSSTracker/Classes/Crash/**/*'
-  end
-  
-  s.subspec 'Hook' do |ss|
-      ss.source_files = 'CSSTracker/Classes/Hook/**/*'
-  end
-  
-  s.subspec 'HttpSend' do |ss|
-      ss.source_files = 'CSSTracker/Classes/HttpSend/**/*'
-  end
-  
+  s.ios.vendored_frameworks = 'CSSTracker/Classes/*.framework'
+
+#s.vendored_frameworks = 'CSSTracker/Classes/Framework/*.framework'
+
+#  s.subspec 'Crash' do |ss|
+#      ss.source_files = 'CSSTracker/Classes/Crash/**/*'
+#  end
+
+#  s.subspec 'Hook' do |ss|
+#      ss.source_files = 'CSSTracker/Classes/Hook/**/*'
+#  end
+
+#  s.subspec 'HttpSend' do |ss|
+#      ss.source_files = 'CSSTracker/Classes/HttpSend/**/*'
+#  end
+
   s.subspec 'Persistence' do |ss|
       ss.source_files = 'CSSTracker/Classes/Persistence/**/*'
   end
   
-  s.subspec 'Tracker' do |ss|
-      ss.source_files = 'CSSTracker/Classes/Tracker/**/*'
-  end
-  
+#  s.subspec 'Framework' do |ss|
+#
+#  end
+
+#  s.subspec 'Tracker' do |ss|
+#      ss.source_files = 'CSSTracker/Classes/Tracker/**/*'
+#  end
+
   # s.resource_bundles = {
   #   'CSSTracker' => ['CSSTracker/Assets/*.png']
   # }

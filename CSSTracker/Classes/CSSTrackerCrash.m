@@ -68,7 +68,7 @@ void InstallSignalHandler(void){
 
 #pragma mark - 获取崩溃信息临时存储地址
 + (NSString *)exceptionInfoPath{
-    return [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"MCException"];
+    return [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"CSSException"];
 }
 
 #pragma mark - 获取崩溃信息并上传

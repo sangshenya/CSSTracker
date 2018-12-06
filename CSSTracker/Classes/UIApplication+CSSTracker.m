@@ -30,12 +30,12 @@
 @implementation UIApplication (CSSTracker)
 
 + (void)startTracker {
-    [self swizzleInstanceMethod:@selector(sendEvent:) with:@selector(mct_trackerSendEvent:)];
+    [self swizzleInstanceMethod:@selector(sendEvent:) with:@selector(css_trackerSendEvent:)];
 }
 
 static const int touchObj_key;
-- (void)mct_trackerSendEvent:(UIEvent *)event {
-    [self mct_trackerSendEvent:event];
+- (void)css_trackerSendEvent:(UIEvent *)event {
+    [self css_trackerSendEvent:event];
     
     UITouch *touch = event.allTouches.anyObject;
     

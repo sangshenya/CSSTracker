@@ -6,7 +6,6 @@
 //
 
 #import "CSSTracker.h"
-#import "UIViewController+CSSTracker.h"
 #import "UIApplication+CSSTracker.h"
 #import "CSSTrackerCrash.h"
 #import "CSSTrackerSendParameter.h"
@@ -18,6 +17,8 @@
 #import <CSSKit/CSSMacros.h>
 #import <CSSKit/NSDictionary+Addition.h>
 #import <CSSNetworkClient/CSSNetworkClient+Singletop.h>
+#import "UIViewController+CSSTracker.h"
+
 
 #define kCSSTMachineIdKey @"CSSTRACKER_MACHINEID"
 

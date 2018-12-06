@@ -56,10 +56,12 @@
 
 - (NSString *)lat {
     return [NSString stringWithFormat:@"%.2f", [MCLocationManager sharedInstance].latitude];
+//    return @"136.2";
 }
 
 - (NSString *)lng {
     return [NSString stringWithFormat:@"%.2f", [MCLocationManager sharedInstance].longitude];
+//    return @"46.8";
 }
 
 - (NSString *)ip {
@@ -77,18 +79,22 @@
 
 - (NSString *)country {
     return [MCLocationManager sharedInstance].ISOcountryCode;
+//    return @"CN";
 }
 
 - (int)coordinateType {
     return [MCLocationManager sharedInstance].coordinate_type;
+//    return 1;
 }
 
 - (double)locaAccuracy {
     return [MCLocationManager sharedInstance].coordinate_accuracy;
+//    return 4262537523745;
 }
 
 - (double)coordTime {
     return [MCLocationManager sharedInstance].coordinate_time;
+//    return 354343453435;
 }
 
 - (NSString *)bssId {
